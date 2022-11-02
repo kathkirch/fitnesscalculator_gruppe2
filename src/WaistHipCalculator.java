@@ -1,17 +1,17 @@
 public class WaistHipCalculator {
 
-    double wH_weightInKg;
-    double wH_heightInCm;
+    double wH_waistInCm;
+    double wH_hipInCm;
 
-    public WaistHipCalculator(double weight, double height) {
-        wH_weightInKg = weight;
-        wH_heightInCm = height;
+    public WaistHipCalculator(double waist, double hip) {
+        wH_waistInCm = waist;
+        wH_hipInCm = hip;
 
     }
 
-    public static double wH_Calculation(double wH_weightInKg, double wH_heightInCm) {
+    public static double wH_Calculation(double wH_waistInCm, double wH_hipInCm) {
 
-        double wH_result =  wH_weightInKg / wH_heightInCm;
+        double wH_result =  wH_waistInCm / wH_hipInCm;
 
         return wH_result;
 
