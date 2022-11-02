@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Enter your weight (in kg): ");
         double UserWeight = myScan.nextDouble();  // Read user input
 
-        System.out.println("Enter your weight (in cm): ");
+        System.out.println("Enter your height (in cm): ");
         int UserHeight = myScan.nextInt();  // Read user input
 
         System.out.println("Enter your hip circumference (in cm): ");
@@ -31,6 +31,7 @@ public class Main {
         double UserWhc = whc.wH_Calculation();
 
         System.out.println("Your Waste to Hip Ratio is: " + UserWhc);
+
 
     }
 }
