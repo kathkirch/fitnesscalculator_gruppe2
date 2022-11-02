@@ -11,9 +11,9 @@ public class BMI_Calculator {
         this.height = height;
     }
 
-    //methode to calculate the bmi
+    //method to calculate the bmi
    public double calculate_bmi (){
-        bmi = weight/((height*height));
+        bmi = (100*100*weight)/(height*height);
         return bmi;
    }
 }
