@@ -7,7 +7,6 @@ public class Main {
 
         System.out.println("Enter your age (in years): ");
         int UserAge = myScan.nextInt();  // Read user input
-        //System.out.println("Your age is: " + UserAge);  // Output user input
 
         System.out.println("Enter your weight (in kg): ");
         double UserWeight = myScan.nextDouble();  // Read user input
@@ -26,6 +25,12 @@ public class Main {
         double UserBmi = bmi.calculate_bmi();
 
         System.out.println("Your BMI is: " + UserBmi);
+
+        WaistHipCalculator whc = new WaistHipCalculator(UserWaist, UserHip);
+
+        double UserWhc = whc.wH_Calculation();
+
+        System.out.println("Your Waste to Hip Ratio is: " + UserWhc);
 
     }
 }
