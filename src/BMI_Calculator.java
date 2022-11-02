@@ -12,8 +12,8 @@ public class BMI_Calculator {
     }
 
     //methode to calculate the bmi
-   public double calculate_bmi (double weight, int height){
-        bmi = weight/(height*height);
+   public double calculate_bmi (){
+        bmi = weight/((height*height));
         return bmi;
    }
 }
